@@ -1,0 +1,29 @@
+{
+  "name": "admin",
+  "version": "1.0.0",
+  "description": "Admin for adding and deleting courses",
+  "main": "admin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dheeraj0802/January-Web-Development-Project-Technocolabs.ai.git"
+  },
+  "author": "Dheeraj Khatri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dheeraj0802/January-Web-Development-Project-Technocolabs.ai/issues"
+  },
+  "homepage": "https://github.com/dheeraj0802/January-Web-Development-Project-Technocolabs.ai#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-sanitizer": "^1.0.5",
+    "method-override": "^3.0.0",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.11.12",
+    "nodemon": "^2.0.7"
+  }
+}

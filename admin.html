@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Portal</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="jumbotron">
+        <h1 class="display-4">Welcome to Admin Workplace</h1>
+        <hr>
+        <br>
+        <form action="/courses" method="POST">
+            <h2>Add a Course</h2>
+            <hr>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Enter a Course Name to Add</label>
+              <input type="text" class="form-control" id="exampleInputEmail1"  placeholder="Enter Course Name" name="name">
+              
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Enter Image URL</label>
+              <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Image URL" name="image">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword2">Enter Price of the Course</label>
+                <input type="text" class="form-control" id="exampleInputPassword2" placeholder="Enter Price" name="quote">
+              </div>
+              
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+
+        <br>
+        <br>
+        <form action="/cours" method="POST">
+            <h2>DELETE Course</h2>
+            <hr>
+            <div class="form-group">
+              <label for="exampleInputEmail6">Enter a Course Name to Delete</label>
+              <input type="text" class="form-control" id="exampleInputEmail6"  placeholder="Enter Course Name" name="name">
+              
+            </div>
+            
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+
+          <br>
+          <br>
+          <form action="/cou" method="POST">
+              <h2>Edit a Course</h2>
+              <hr>
+              <div class="form-group">
+                <label for="exampleInputEmail7">Enter a Course Name to Edit</label>
+                <input type="text" class="form-control" id="exampleInputEmail7"  placeholder="Enter Course Name" name="name">
+                
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail">Enter a Property to edit : title , price , image</label>
+                <input type="text" class="form-control" id="exampleInputEmail"  placeholder="Enter Property" name="property">
+                
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmai">Enter updated property value</label>
+                <input type="text" class="form-control" id="exampleInputEmai"  placeholder="Enter Updated Property" name="updated">
+                
+              </div>
+              
+
+
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+    
+        
+      </div>
+
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
