@@ -10484,3 +10484,11 @@
   .uil-comment-alt-plus:before {
     content: '\e92b';
   }
+  /* ^^^^^^^^^^^^^^^^^^^^^^^^^ modifaction^^^^^^^^^^^^^^^^^^^^^^ */
+  .size_dec{
+    height: 38vh !important;
+    width: 18vw !important;
+    margin-left: -50px;
+    margin-right: 300px;
+  }
+   

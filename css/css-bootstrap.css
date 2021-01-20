@@ -10057,7 +10057,9 @@ button.bg-black:hover {
 
 .mt-4,
 .my-4 {
-  margin-top: 1.5rem !important;
+  margin-top: 3.5rem !important;
+    
+    margin-right: 135px
 }
 
 .mr-4,

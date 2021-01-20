@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en" dir="rtl">
+
+
+
+<head>
+
+    <!-- Basic Page Needs
+    ================================================== -->
+    <title>Technocolabs.ai</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Courseplus - Professional Learning Management HTML Template">
+
+    <!-- Favicon -->
+    <link href="assets/images/favicon.png" rel="icon" type="image/png">
+
+    <!-- CSS 
+    ================================================== -->
+    <link rel="stylesheet" href="css/css-style-rtl.css">
+    <link rel="stylesheet" href="css/css-night-mode.css">
+    <link rel="stylesheet" href="css/css-framework-rtl.css">
+    <link rel="stylesheet" href="css/css-bootstrap.css"> 
+
+    <!-- icons
+    ================================================== -->
+    <link rel="stylesheet" href="css/css-icons.css">
+
+ 
+</head>
+
+<body>
+    <style>  
+        body{  
+          font-family: Calibri, Helvetica, sans-serif;  
+          background-color: darkkhaki;  
+        }  
+        .container {  
+            padding: 50px;  
+          background-color: darkcyan;  
+        }  
+            
+        .form-row {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -moz-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-flex-wrap: wrap;
+          -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+          -webkit-box-align: start;
+          -webkit-align-items: flex-start;
+          -moz-box-align: start;
+          -ms-flex-align: start;
+          align-items: flex-start;
+          padding: 24px 55px;
+          border-bottom: 1px solid #e5e5e5;
+        }
+          
+        input[type=text], input[type=password], textarea {  
+          width: 100%;  
+          padding: 15px;  
+          margin: 5px 0 22px 0;  
+          display: inline-block;  
+          border: none;  
+          background: #f1f1f1;  
+        }  
+        input[type=text]:focus, input[type=password]:focus {  
+          background-color: orange;  
+          outline: none;  
+        }  
+         div {  
+                    padding: 10px 0;  
+                 }  
+        hr {  
+          border: 1px solid #f1f1f1;  
+          margin-bottom: 25px;  
+        }  
+        .btn {
+          display: inline-block;
+          line-height: 50px;
+          padding: 0 30px;
+          -webkit-transition: all 0.4s ease;
+          -o-transition: all 0.4s ease;
+          -moz-transition: all 0.4s ease;
+          transition: all 0.4s ease;
+          cursor: pointer;
+          font-size: 15px;
+          text-transform: capitalize;
+          font-weight: 700;
+          color: #fff;
+          font-family: inherit;
+        align-self:center; 
+        align-self:center; 
+        }
+        
+        .registerbtn--radius {
+          -webkit-border-radius: 3px;
+          -moz-border-radius: 3px;
+          border-radius: 3px;
+        }
+        
+        .registerbtn--radius-2 {
+          -webkit-border-radius: 5px;
+          -moz-border-radius: 5px;
+          border-radius: 5px;
+        }
+        
+        .registerbtn--pill {
+          -webkit-border-radius: 20px;
+          -moz-border-radius: 20px;
+          border-radius: 20px;
+        }
+        
+        .registerbtn--green {
+          background: #57b846;
+        }
+        
+        .registerbtn--green:hover {
+          background: #4dae3c;
+        }
+        
+        .registerbtn--blue {
+          background: #4272d7;
+        }
+        
+        .registerbtn--blue:hover {
+          background: #3868cd;
+        }
+        
+        .registerbtn--blue-2 {
+          background: #2c6ed5;
+        }
+        
+        .registerbtn--blue-2:hover {
+          background: #185ac1;
+        }
+        
+        .registerbtn--red {
+          background: #ff4b5a;
+        }
+        
+        .registerbtn--red:hover {
+          background: #eb3746;
+        }
+        
+        </style>  
+        </head>  
+        <body>  
+        <form>
+            <div class="container uk-text-left">  
+                <h1> Student Registeration Form</h1> 
+                  <!-- <hr>  
+                     <div class="form-row">
+                      <div class="name uk-text-left">Full name</div>
+                      <div class="value">  -->
+             <label> Name</label>   
+             <input type="text" class="uk-text-left" name="middlename" placeholder="Middlename" size="15" required />   
+             <label> Lastname</label>    
+             <input type="text" name="lastname"  class="uk-text-left" placeholder="Lastname" size="15"required />   
+             <!--  -->
+                   <label> Country </label>   
+             <input type="text"  class="uk-text-left" name="Country" placeholder= "Country" size="15" required />   
+                   <label> City </label>   
+             <input type="text"  class="uk-text-left" name="city" placeholder= "City" size="15" required />   
+                   <label> College Name </label>   
+             <input type="text" class="uk-text-left" name="collegename" placeholder= "College Name" size="15" required />   
+             <label>   
+                 <label> Year Of Graduation </label>   
+             <input type="text" class="uk-text-left" name="year of graduatiom" placeholder= "Year of Graduation" size="15" required />   
+             Phone  
+             </label>  
+             <input type="text" class="uk-text-left" name="country code" placeholder="Country Code"  value="+91" size="2"/>   
+             <input type="text" class="uk-text-left" name="phone" placeholder="phone no." size="10" required>   
+             Current Address  
+             <textarea cols="80" class="uk-text-left" rows="5" placeholder="Current Address" value="address" required>  
+             </textarea>  
+              <label for="email"><b>Email</b></label>  
+              <input type="text" class="uk-text-left" placeholder="Enter Email" name="email" required>  
+               
+                 <div>  
+             <label>   
+             Primary Skills 
+             </label>   
+               
+             <select class="uk-text-left">  
+             <option value="Primary Skill" class="uk-text-left">Primary Skill</option>  
+             <option value="Data Science">Data Science</option>  
+             <option value="Web Development">Web Development</option>  
+             <option value="React JS">React Js</option>  
+             <option value="Mern Stack">Mern Stack</option>  
+             <option value="Mongo DB">Mongo DB</option>  
+             <option value="Python">Python</option>  
+             </select>  
+             </div>  
+                   
+                   <div>  
+             <label>   
+             Secondary Skills:  
+             </label>   
+               
+             <select>  
+             <option value="Secondary Skill">Secondary Skill</option>  
+             <option value="Team Leadership">Team Leadership</option>  
+             <option value="Public Speaking">Public Speaking</option>  
+             <option value="Marketting">Marketting</option>  
+             <option value="Designing"></option>  
+             <option value="Others">Others</option>  
+               </select>  
+            </div>
+                                               <button class="registerbtn registerbtn--radius-2 registerbtn--blue-2" type="submit">Send Application</button>
+             
+        </form>  
+       
+
+    <!-- For Night mode -->
+    <script>
+        (function (window, document, undefined) {
+            'use strict';
+            if (!('localStorage' in window)) return;
+            var nightMode = localStorage.getItem('gmtNightMode');
+            if (nightMode) {
+                document.documentElement.className += ' night-mode';
+            }
+        })(window, document);
+
+
+        (function (window, document, undefined) {
+
+            'use strict';
+
+            // Feature test
+            if (!('localStorage' in window)) return;
+
+            // Get our newly insert toggle
+            var nightMode = document.querySelector('#night-mode');
+            if (!nightMode) return;
+
+            // When clicked, toggle night mode on or off
+            nightMode.addEventListener('click', function (event) {
+                event.preventDefault();
+                document.documentElement.classList.toggle('night-mode');
+                if (document.documentElement.classList.contains('night-mode')) {
+                    localStorage.setItem('gmtNightMode', true);
+                    return;
+                }
+                localStorage.removeItem('gmtNightMode');
+            }, false);
+
+        })(window, document);
+    </script>
+
+
+    <!-- javaScripts
+    ================================================== -->
+    <script src="assets/js/framework.js"></script>
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/simplebar.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/bootstrap-select.min.js"></script>
+
+</body>
+
+
+
+</html>
