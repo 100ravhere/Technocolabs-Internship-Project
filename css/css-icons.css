@@ -6976,6 +6976,9 @@
   .uil-file-alt:before {
     content: '\e9dd';
   }
+  .uil-admin-alt::before{
+    content: '\ea44';
+  }
  
   .uil-file-blank:before {
     content: '\e9de';

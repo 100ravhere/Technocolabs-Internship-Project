@@ -12266,3 +12266,405 @@ iframe.uk-cover {
     page-break-after: avoid;
   }
 }
+
+
+
+
+.hi-1
+{
+  
+  height: 400px;
+  background-image: url('https://img.freepik.com/free-vector/white-3d-modern-background-design_53876-88246.jpg?size=626&ext=jpg');
+  background-repeat: no-repeat;
+  background-size: 50% 100%;
+  background-position: right;
+  text-align: left;
+  background-color: white;
+  width: 100%;
+
+}
+
+#t1
+{
+  padding-top:20px;
+  padding-left:50px;
+  padding-right:800px;
+  font-size:18px;
+  font-family: bold;
+  text-align: left;
+  
+}
+
+#p1
+{
+  padding-top: 30px;
+  padding-left:50px;
+  font-size:30px;
+}
+
+.button1 {
+  background-color:#262626 ; /* Green */
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 8px 50px;
+  cursor: pointer;
+  border-radius: 18px;
+  margin-right: 70px;
+  margin-top:40px;
+  transition: transform .2s;
+
+}
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+div.hi-2
+{
+  text-align: left;  
+}
+
+.hi-2
+{
+  background-color: #CCD1D1;
+  height: 400px;
+  background-image: url('https://electropak.net/wp-content/uploads/2020/07/New-Company-Directors.jpg');
+  background-repeat: no-repeat;
+  background-size: 50% 100%;
+  background-position: left;
+
+}
+#p2
+{
+ text-align:center;
+ padding-left: 200px;
+ font-size: 30px;
+ padding-top: 20px;
+
+}
+#t2
+{
+  
+  padding-top:5px;
+  padding-right:50px;
+  padding-left:800px;
+  font-size:18px;
+  font-family: bold;
+
+}
+div.hi-3
+{
+  text-align: left;  
+}
+
+.hi-3
+{
+  background-color: white;
+  height: 400px;
+}
+#p3
+{
+  text-align:center;
+ 
+ font-size: 30px;
+ padding-top: 20px;
+}
+div.hi-4
+{
+   
+}
+
+.hi-4
+{
+  background-color: #CCD1D1;
+  height: 400px;
+  text-align:center;
+  
+
+}
+#p4
+{
+  text-align:center;
+  font-size: 30px;
+  padding-top: 20px;
+}
+#t4
+{
+  padding-top:5px;
+  font-size:18px;
+  font-family: bold;
+  text-align: center;
+}
+#m1
+{
+  list-style-image: url('C:/Users/Admin/Desktop/January-Web-Development-Project-Technocolabs.ai-main/assets/images/tick.png');
+  display: inline-block;
+  padding-right: 900px;
+  justify-content:left;
+  text-align: left;
+
+}
+#m2
+{
+  list-style-image: url('C:/Users/Admin/Desktop/January-Web-Development-Project-Technocolabs.ai-main/assets/images/tick.png');
+  display: inline-block;
+  text-align: left;
+}
+#z1
+{
+  float:right;
+  position: absolute;
+  top:1418px;
+  right:250px;
+
+}
+.row1
+{
+  display: flex;
+  padding-top: 50px;
+}
+.column1
+{
+  padding-right:300px;
+  padding-top:26px;
+}
+.column2
+{
+  padding-right:60px;
+  padding-top:12px;
+}
+.column3
+{
+  padding-right:50px;
+  padding-top: 6px;
+  
+}
+.column4
+{
+  padding-right:40px;
+  padding-top:15px;
+}
+.column5
+{
+  padding-right:60px;
+  padding-top:20px;
+}
+.my
+{
+  height:1500px;
+  background-color:white;
+  text-align:left;
+}
+
+.container1{
+    background-color: white;
+    padding-left: 500px;
+    text-align: left;
+}
+input[type=text], input[type=password], input[type=number], input[type=URL]{
+  width: 50%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border:solid;
+  background: #f1f1f1;
+  text-align:left;
+}
+#extra
+{
+  background: #f1f1f1;
+
+}
+input[type=file]
+{
+  width: 50%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+ 
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=number]:focus, input[type=file]:focus, input[type=URL]:focus{
+  background-color: #ddd;
+  outline: none;
+}
+
+#extra:focus
+{
+  background-color: #ddd;
+  outline: none;
+}
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+.op
+{
+  background-color: white;
+  width:100%;
+  
+}
+.my1
+{
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: 50% 100%;
+  background-position: right top;
+  text-align: left;
+  background-repeat: no-repeat;
+  background-image: url('https://images.unsplash.com/photo-1586281380349-632531db7ed4?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NHx8am9ifGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60')
+}
+.grid-container {
+  display: grid;
+  grid-gap: 70px;
+  grid-template-columns: 280px 280px 280px 280px;
+  grid-template-rows: 150px 150px 150px;
+  background-color:white;
+  padding-right: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  
+}
+
+
+.grid-item {
+  background-color:#4d4d4d;
+  border: none;
+  padding-bottom: 2px;
+  font-size: 20px;
+  text-align: center;
+  color:white;
+  transition: transform .2s;
+}
+.grid-item:hover
+{
+  background-color: grey;
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2); 
+}
+
+.stm
+{
+    margin-bottom:20px;
+    font-weight: 800;
+    font-size: 17px;
+    line-height: 23px;
+    letter-spacing: 0.3px;
+    box-sizing: border-box;
+    color:white;
+    padding-top:30px;
+}
+.stm_location
+{
+  opacity: 0.6;
+  display: block;
+  box-sizing: border-box;
+  color:white;
+  
+}
+
+#p8
+{
+  padding-top: 140px;
+  padding-left:10px;
+  padding-right: 60px;
+  font-size:60px;
+  font-weight: bold;
+}
+#t8
+{
+  color:black;
+  direction: "ltr";
+  text-align:left;
+  padding-left: 10px;
+  font-size: 20px;
+}
+.button2
+{
+  background-color:#262626 ; /* Green */
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 8px 50px;
+  cursor: pointer;
+  border-radius: 18px;
+  margin-right: 70px;
+  margin-top:40px;
+  transition: transform .2s;
+  margin-left: 790px;
+}
+.j1
+{
+  background-color: white;
+  height:1250px;
+  font-size:17px;
+  display: inline-block;
+  justify-content:left;
+  text-align: left;
+  padding-left:400px;
+  padding-right:300px;
+
+
+}
+.k1
+{
+    background-color: #edeff0;
+}
+.lk1
+{
+  text-align: center;
+  color: #3e416d;
+  padding-top:20px;
+  font-size: 35px;
+
+}
+.v1
+{
+  font-size:20px;
+  letter-spacing: 1px;
+  text-align: center;
+
+}
+.buttonr
+{
+  background-color:#262626 ; 
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 50px;
+  cursor: pointer;
+  border-radius: 15px;
+  margin-right: 100px;
+  margin-top:40px;
+  transition: transform .2s;
+}
